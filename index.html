@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Workout Guide</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <h1>Workout Library</h1>
+
+    <input type="radio" name="workout" id="arm-btn" checked>
+    <input type="radio" name="workout" id="chest-btn">
+    <input type="radio" name="workout" id="leg-btn">
+
+    <!-- Navigation Panel -->
+    <nav class="nav-tabs">
+        <label for="arm-btn">Arms</label>
+        <label for="chest-btn">Chest</label>
+        <label for="leg-btn">Legs</label>
+    </nav>
+
+    <main>
+        <section class="content" id="arm-content">
+            <div id="arm-inventory"></div>            
+        </section>
+
+        <section class="content" id="chest-content">
+            <div id="chest-inventory"></div> 
+        </section>
+
+        <section class="content" id="leg-content">
+            <div id="leg-inventory"></div> 
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

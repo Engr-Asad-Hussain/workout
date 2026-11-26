@@ -1,0 +1,178 @@
+{
+  "window.zoomLevel": 1,
+  "editor.fontFamily": "Hack",
+  "editor.fontSize": 13,
+  "editor.detectIndentation": false,
+  "editor.rulers": [88],
+  "workbench.colorTheme": "Dark+",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#b08e44a9"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[python]": {
+    // "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "never",
+      "source.organizeImports": "always"
+    }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ts": "never",
+      "source.removeUnusedImports": "never",
+      "source.sortImports": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ts": "never",
+      "source.removeUnusedImports": "never",
+      "source.sortImports": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ts": "never",
+      "source.removeUnusedImports": "never",
+      "source.sortImports": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ts": "never",
+      "source.removeUnusedImports": "never",
+      "source.sortImports": "always",
+      "source.organizeImports": "always"
+    }
+  },
+  //
+  // njpwerner.autodocstring
+  // ...
+  //
+  // ms-python.isort
+  // ms-python.black-formatter
+  "isort.args": ["--profile", "black"],
+  //
+  // ms-python.vscode-pylance
+  "python.languageServer": "Pylance",
+  "python.analysis.languageServerMode": "default",
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  // "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.importFormat": "absolute",
+  "python.analysis.autoIndent": true,
+  "python.analysis.includeAliasesFromUserFiles": true,
+  //
+  // esbenp.prettier-vscode
+  "prettier.semi": false,
+  "prettier.trailingComma": "es5",
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
+  "prettier.singleAttributePerLine": true,
+  //
+  // streetsidesoftware.code-spell-checker [BUG: shifting from file to file in donot navigate navigation panel]
+  "cSpell.language": "en",
+  "cSpell.enabled": true,
+  "cSpell.words": [
+    "apikey",
+    "ASGI",
+    "Atrai",
+    "autoflush",
+    "basefmt",
+    "blocklist",
+    "cnic",
+    "dateutil",
+    "dotenv",
+    "engineio",
+    "executemany",
+    "figsize",
+    "Flowable",
+    "fontsize",
+    "geoalchemy",
+    "geofence",
+    "geofences",
+    "geospatial",
+    "hgetall",
+    "hideable",
+    "HSET",
+    "httpagentparser",
+    "Hypercorn",
+    "ilike",
+    "imei",
+    "interp",
+    "isnot",
+    "jsonable",
+    "linefmt",
+    "llen",
+    "lpush",
+    "mdates",
+    "MVCC",
+    "Nmap",
+    "offloader",
+    "ondelete",
+    "onupdate",
+    "outerjoin",
+    "Pipx",
+    "postrun",
+    "prerun",
+    "Pylance",
+    "Quattro",
+    "redoc",
+    "relativedelta",
+    "sadd",
+    "selectinload",
+    "sessionmaker",
+    "Sindh",
+    "smembers",
+    "srem",
+    "stackplot",
+    "startrow",
+    "sttime",
+    "teltonika",
+    "turbopack",
+    "ungroup",
+    "xticks",
+    "ylabel",
+    "yticks",
+    "zadd",
+    "zrem",
+    "zrevrange"
+],
+  //
+  // GitHub.vscode-pull-request-github
+  "github.gitAuthentication": false,
+  // disabled this extension from Extenions: Marketplace for this workspace
+  // enabled following users settings (disabled github authentication globally)
+  // "github.gitAuthentication": false
+}
